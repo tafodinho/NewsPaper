@@ -23,3 +23,21 @@
 .signup {
     padding: 20px 10px 12px 40px;
 }
+.link-border{
+    padding: 6px;
+    font-weight: bold;
+    font-size: .9em;
+    color: #000;
+    letter-spacing: -.8px;
+   
+}
+.outer{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 5px;
+
+}
+.link-border:hover{
+    color: red;
+    text-decoration: none;
+}
