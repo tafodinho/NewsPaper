@@ -17,3 +17,9 @@
     font-family: 'Abril Fatface', cursive;
     font-weight: 600;
 }
+.date {
+    padding-top: 56px;
+}
+.signup {
+    padding: 20px 10px 12px 40px;
+}
