@@ -27,7 +27,6 @@ p {
     padding-bottom: 5px;
     margin: 0px
 }
-hr {
-    margin-top: 3px;
-    margin-bottom: 3px;
+ul {
+    list-style: none;
 }
