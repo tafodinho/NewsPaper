@@ -2,3 +2,32 @@
 .container {
     max-width: 1360px !important;
 }
+h3, h4, h5, h6 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+    margin: 0;
+}
+h3 {
+    font-size: 22px;
+    
+}
+h4 {
+    font-size: 20px;
+    color: #a0a0a0;
+}
+h5 {
+    font-size: 17px;
+}
+h6 {
+    font-size: 15px;
+}
+p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px
+}
+hr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
