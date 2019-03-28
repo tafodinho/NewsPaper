@@ -172,12 +172,24 @@
 .red-text {
     color: #f72210;
 }
-.magazine-caption {
+.magazine-caption, 
+.editors-caption, 
+.featured-caption {
     text-align: center;
+    margin-top: 20px;
 }
-.magazine-caption span {
+.magazine-caption span, 
+.editors-caption span,
+.featured-caption span {
     color: white;
     background: #f72210;
     padding: 4px 6px 4px 6px;
     font-size: 23px;
+}
+.editor .editors-image {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%;
+    background: #890922;
 }
