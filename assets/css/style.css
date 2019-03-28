@@ -233,3 +233,27 @@ body{
     padding-left: 4px;
     float: left;
 }
+.first-section .first-section-image {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.last-section {
+    margin-top: 25px;
+}
+.bottom-ad {
+    background: #f4f5f6;
+}
+.first-section h3, 
+.first-section ul {
+    float: left;
+}
+.first-section h3 {
+    padding-top: 15px;
+    padding-left: 38px;
+}
+.bottom-ad button {
+    padding: 10px 10px 10px 60px;
+    background: 
+}
