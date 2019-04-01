@@ -10,8 +10,25 @@ body{
     background: #f72210;
     height: 100px;
     color: white;
+    position: relative;
 }
-
+.shape {
+    content: "";
+    position: absolute;
+    background: #f72210;
+    height: 15px;
+    width: 60px;
+    bottom: -15px;
+    right: 0;
+}
+.shape::after {
+    content: "";
+    position: absolute;
+    width: 0; height: 0; 
+    border-top: 15px solid #f72210; 
+    border-left: 20px solid transparent;
+    right: 60px;
+}
 .main-header ul {
     list-style: none;
 }
@@ -40,11 +57,13 @@ body{
     padding: 4px 21px 4px 21px;
     font-size: 22px;
     font-weight: 600;
+}
+.main-nav li:not(:last-child) {
     border-right: solid 1px #d9d9d9;
-
 }
 .main-nav li input {
-    width: 110px;
+    width: 80px;
+    border: none;
 }
 .link-border{
     padding: 6px;
