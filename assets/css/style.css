@@ -99,6 +99,13 @@ body{
     position: relative;
     background: #354092;
 }
+.side-article .top-story-image {
+    width: 100%;
+    height: 0;
+    padding-top: 65%;
+    position: relative;
+    background: #354092;
+}
 .image-sticker {
     position: absolute;
     bottom: 0;
