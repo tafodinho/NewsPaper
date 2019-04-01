@@ -43,8 +43,17 @@ body{
 .date {
     padding-top: 56px;
 }
-.signup {
-    padding: 56px 10px 12px 40px;
+.signup ul{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.signup .subscribe {
+    padding: 8px;
+    background: white;
+    color: red;
 }
 .main-nav {
     list-style: none;
