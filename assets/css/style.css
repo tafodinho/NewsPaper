@@ -290,3 +290,7 @@ body{
 .footer{
     margin-bottom: 3%;
 }
+.sticky {
+    position: sticky;
+    top: 0;
+}
