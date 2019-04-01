@@ -255,5 +255,38 @@ body{
 }
 .bottom-ad button {
     padding: 10px 10px 10px 60px;
-    background: 
+}
+.last-section{
+    margin: 5%;
+}
+.most-tabs {
+    font: bold 16px/16px "Roboto Condensed",sans-serif;
+}
+.last-bg{
+    background-color: #f4f5f6;
+    padding-bottom: 2%;
+}
+.leaf{
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+    margin-bottom: 1%;
+}
+.last-leaf{
+    padding-right: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+.edition{
+    display: inline;
+    margin: -2% 4% 0% 0%;
+    color: #333;
+}
+.footer{
+    margin-bottom: 3%;
 }
